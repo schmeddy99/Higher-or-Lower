@@ -58,6 +58,7 @@ def game():
             compare_a = random.choice(data)  # Start fresh with a new `compare_a`
 
 
+
 def compare(input_choice, a, b):
     """Returns True if the user's choice is correct, False otherwise"""
     if (input_choice == 'A' and a['follower_count'] >= b['follower_count']) or \
